@@ -1,0 +1,48 @@
+# ==============================================================================
+# Node.js / Express
+# ==============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.eslintcache
+
+# Archivos de build (por si usás TypeScript o compiladores)
+dist/
+build/
+
+# ==============================================================================
+# Entorno y Configuración Local (¡NUNCA subir credenciales!)
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================================================================
+# Docker & RabbitMQ (Datos persistentes y volumenes)
+# ==============================================================================
+# Ignorar los datos guardados por el contenedor de RabbitMQ si mapeás volúmenes locales
+.docker-data/
+rabbitmq_data/
+rabbitmq_logs/
+
+# Archivos de volúmenes genéricos de Docker
+.docker/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

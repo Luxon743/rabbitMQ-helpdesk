@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-helpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon --watch src src/services/api-service.js",
+    "worker:assign": "nodemon --watch src src/workers/assignment-worker.js",
+    "worker:audit": "nodemon --watch src src/workers/audit-worker.js",
+    "worker:metrics": "nodemon --watch src src/workers/metrics-worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "amqplib": "^2.0.1",
+    "express": "^5.2.1",
+    "expresss": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
