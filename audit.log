@@ -1,0 +1,5 @@
+[2026-07-01T15:59:20.916Z] EVENTO: ticket.created | ID: 6c4b202e-2e68-4993-8a09-de563cf4f750 | PAYLOAD: {"ticketId":"TCK-2617","title":"Error visual","description":"Esta mal el responsive","priority":"low"}
+[2026-07-01T15:59:21.941Z] EVENTO: ticket.assigned | ID: 6c4b202e-2e68-4993-8a09-de563cf4f750 | PAYLOAD: {"ticketId":"TCK-2617","assignedTo":"Soporte_Nivel_1","status":"in_progress"}
+[2026-07-01T16:01:19.145Z] EVENTO: ticket.created | ID: 194258d3-6cf6-4d84-8088-1760f6390f74 | PAYLOAD: {"ticketId":"TCK-2719","title":"Error de enrutamiento","description":"No esta bien enrutado el menu","priority":"high"}
+[2026-07-01T16:01:20.179Z] EVENTO: ticket.assigned | ID: 194258d3-6cf6-4d84-8088-1760f6390f74 | PAYLOAD: {"ticketId":"TCK-2719","assignedTo":"Soporte_Nivel_1","status":"in_progress"}
+[2026-07-01T16:03:10.556Z] EVENTO: ticket.created | ID: 73e79179-6f13-424c-87dd-50f80ff7d8e3 | PAYLOAD: {"ticketId":"TCK-1872","title":"Error en el Login","description":"No anda ek Login","priority":"critical"}
